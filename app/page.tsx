@@ -40,7 +40,7 @@ export default function HomePage() {
       name: "Porfolio Website",
       link_text: "github.com/oebsworth/portfolio-website-nextjs-web",
       link: "https://github.com/oebsworth/portfolio-website-nextjs-web",
-      description: "This is my portfolio website. I created this to showcase my work and to link to my C.V., I plan to update this and change how it is currently formatted. You can view the code here (",
+      description: "I created this to showcase my work and to link to my C.V., I plan to update this and change how it is currently formatted. You can view the code here (",
 
     },
     {
@@ -173,13 +173,12 @@ export default function HomePage() {
       location: "Farnborough, Hampshire",
       date: "2019 - 2020",
       role: "Farnborough Fins",
-      description: "2019: I worked as a dedicated pool helper for Farnborough Fins, I ensured a safe environment for young children during their activities. I collaborated with a new team each shift, building new relationships on the fly to provide the best experience for teachers and the children that were taking part. Unfortunately this position ended due to covid."
+      description: "2019: I worked as a dedicated pool helper for Farnborough Fins, I ensured a safe environment for young children during their activities. I collaborated with a new team each shift, building new relationships in real-time to provide the best experience for teachers and the children that were taking part. Unfortunately this position ended due to covid."
 
     },
   ];
 
-  // const personalNotes = "When I am able to I enjoy spending time with friends in or out of the house. I am an avid gamer, enjoying anything from single-player to massively multiplayer games."
-  const personalNotes = "During my spare time, I enjoy working on personal projects, I enjoy learning new things and usually learn quickly. I also play video games with my friends, when I do we focus on teamwork, leading us to winning the game. Sometimes I am given the role of in game leader, this means that it is my job to call the strategies that we will follow during that game. I will allocate my teammates roles that they are comfortable with and focus on our mistakes so that we can better ourselves for the next round."
+  const personalNotes = "During my spare time, I enjoy working on personal projects, I take great pleasure in learning new things and usually learn quickly. I also play video games with my friends, when I do we focus on teamwork, leading us to winning the game. Sometimes I am given the role of in game leader, this means that it is my job to call the strategies that we will follow during that game. I will allocate my teammates roles that they are comfortable with and focus on our mistakes so that we can better ourselves for the next round."
 
   const references = [
     {
