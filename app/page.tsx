@@ -1,5 +1,3 @@
-// import {} from '@components/index'
-import { BsDiamond } from "react-icons/bs";
 import React from 'react'
 
 export default function HomePage() {
@@ -105,6 +103,7 @@ export default function HomePage() {
         { name: "Stencil", level: "Beginner" },
         { name: "Svelte", level: "Beginner" },
         { name: "Electron", level: "Beginner" },
+        { name: "Nextron", level: "Beginner" }
       ]
     },
     {
@@ -113,7 +112,7 @@ export default function HomePage() {
         // Javascript
         { name: "TailwindCSS", level: "Intermediate" },
         { name: "GSAP", level: "Beginner" },
-        { name: "ThreeJS", level: "Beginner" },
+        { name: "Three.js", level: "Beginner" },
         { name: "MongoDB", level: "Beginner" },
         { name: "Mongoose", level: "Intermediate" },
         { name: "Cloudinary", level: "Beginner" },
@@ -136,7 +135,9 @@ export default function HomePage() {
         { name: "Blender", level: "Advanced" },
 
         // Coding
+        { name: "Visual Studio", level: "Beginner" },
         { name: "VS Code", level: "Intermediate" },
+        { name: "Git", level: "Intermediate" },
 
         // Web Development
         { name: "Figma", level: "Intermediate" },
