@@ -19,7 +19,7 @@ export default function HomePage() {
   const links = [
     { text: "oebsworth.github.io/portfolio-website-nextjs-web", url: "https://oebsworth.github.io/portfolio-website-nextjs-web" },
     { text: "github.com/oebsworth", url: "https://github.com/oebsworth" },
-    { text: "linkedin.com/in/oebsworth", url: "https://linkedin.com/in/oebsworth" },
+    { text: "oebsworth.itch.io/", url: "https://oebsworth.itch.io/" },
   ];
 
   const tagLine = "I'm a passionate programmer that gains gratification from the journey of designing and developing software. "
