@@ -36,44 +36,44 @@ export default function HomePage() {
   const notableProjects = [
     {
       name: "Porfolio Website",
-      link_text: "github.com/oebsworth/portfolio-website-nextjs-web",
+      linkText: "github.com/oebsworth/portfolio-website-nextjs-web",
       link: "https://github.com/oebsworth/portfolio-website-nextjs-web",
       description: "I created this to showcase my work and to link to my C.V., I plan to update this and change how it is currently formatted. You can view the code here (",
 
     },
     {
       name: "Procedural C.V.",
-      link_text: "github.com/oebsworth/procedural-cv-nextjs-web",
+      linkText: "github.com/oebsworth/procedural-cv-nextjs-web",
       link: "https://github.com/oebsworth/procedural-cv-nextjs-web",
       description: "This is the page that you are currently on. Due to my constant learning and understanding of new things. I wanted to create a 'procedural' C.V. that I could update programmatically. Currently it is a next.js project, however I plan to adapt it into my personal portfolio website with Sanity integration. You can view the code here ("
     },
     {
       name: "Kitchen Chaos",
-      link_text: "github.com/oebsworth/kitchen-chaos-unity",
+      linkText: "github.com/oebsworth/kitchen-chaos-unity",
       link: "https://github.com/oebsworth/kitchen-chaos-unity",
       description: `This is a course that I followed from Code Monkey's youtube channel. It teaches the ins and outs of the single-player unity workflow. This was the first big project I worked on in Unity, I have commented throughout the code to show that I understand when to use the coding principles. You can view the code and play the game at (`
     },
     {
       name: "Time Trial Car Game",
-      link_text: "github.com/oebsworth/time-trial-car-game-unity",
+      linkText: "github.com/oebsworth/time-trial-car-game-unity",
       link: "https://github.com/oebsworth/time-trial-car-game-unity",
       description: "This was the first piece of Upwork work that I did for a client. Unfortunately the client backed out of payment so I didn't get the credit I deserved for my Upwork profile. You can view the code and play the game here ("
     },
     {
       name: "Warehouse Wreckage",
-      link_text: "github.com/oebsworth/warehouse-wreckage-unreal",
+      linkText: "github.com/oebsworth/warehouse-wreckage-unreal",
       link: "https://github.com/oebsworth/warehouse-wreckage-unreal",
       description: `Warehouse wreckage is the first game that I have created for my c++ unreal engine course. It is a game set in a warehouse where you can destroy the environment with fun physics and destruction effects. This game is made with blueprint and served as a starting point for unreal engine. You can view the code and play the game at (`,
     },
     {
       name: "Obstacle Assault",
-      link_text: "github.com/oebsworth/obstacle-assault-unreal",
+      linkText: "github.com/oebsworth/obstacle-assault-unreal",
       link: "https://github.com/oebsworth/obstacle-assault-unreal",
       description: `Obstacle assault is the second game that I have created for my c++ unreal engine course. The level is a couple of floating islands with some moving obstacles on them. This was a basic introduction to c++ and the coding principles. You can view the code and play the game at (`,
     },
     // {
     //   name: "Crypt Raider",
-    //   link_text: "github.com/oebsworth/crypt-raider-unreal",
+    //   linkText: "github.com/oebsworth/crypt-raider-unreal",
     //   link: "https://github.com/oebsworth/crypt-raider-unreal",
     //   description: `Crypt raider is the third game of the unreal engine c++ course. I am currently creating it and is so far a more advanced outlook on the previous courses. I am still finding it quite easy due to my previous experience with other languages and the coding principles that are translating over to unreal engine. You can view the code so far at (`
     // }
@@ -260,7 +260,7 @@ export default function HomePage() {
           {notableProjects.map((project, index) => (
             <div key={`project-${index}`} className="mb-1">
               <h3 className="font-bold">{project.name}</h3>
-              <p>{project.description}<a href={project.link} >{project.link_text}</a>).</p>
+              <p>{project.description}<a href={project.link} >{project.linkText}</a>).</p>
             </div>
           ))}
         </div>
