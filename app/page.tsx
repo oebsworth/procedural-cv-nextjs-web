@@ -87,7 +87,8 @@ export default function HomePage() {
         { name: "C#", level: "Advanced" },
         { name: "Python", level: "Intermediate" },
         { name: "C++", level: "Intermediate" },
-        { name: "Typescript", level: "Intermediate" }
+        { name: "Typescript", level: "Intermediate" },
+        { name: "Kotlin", level: "Intermediate" }
       ]
     },
     {
@@ -150,6 +151,9 @@ export default function HomePage() {
         { name: "MS Word", level: "Intermediate" },
         { name: "MS Powerpoint", level: "Intermediate" },
         { name: "MS Excel", level: "Intermediate" },
+
+        // Android
+        { name: "Android Studio", level: "Intermediate" },
       ]
     },
     {
